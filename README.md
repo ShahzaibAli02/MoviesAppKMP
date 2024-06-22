@@ -20,8 +20,7 @@ This is a simple movie app built with Kotlin Multiplatform (KMP) using Jetpack C
 ```bash
 git clone https://github.com/ShahzaibAli02/MoviesAppKMP.git
 ```
-2. Chane api key :
-Update ApiHelper class
+2. Set your TMDB api key :
 ```kotlin
-val bearerToken = "AUTH_TOKEN"
+val bearerToken = "TMDB_API_KEY"
 ```
