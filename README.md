@@ -19,8 +19,9 @@ This is a simple movie app built with Kotlin Multiplatform (KMP) using Jetpack C
 1. Clone the repository:
 ```bash
 git clone https://github.com/ShahzaibAli02/MoviesAppKMP.git
-
+```
 2. Chane api key :
 Update ApiHelper class
 ```kotlin
 val bearerToken = "AUTH_TOKEN"
+```
