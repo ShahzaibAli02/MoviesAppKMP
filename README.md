@@ -1,14 +1,26 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
+# Movie App using Compose Multiplatform, Ktor, and Coil
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+This is a simple movie app built with Kotlin Multiplatform (KMP) using Jetpack Compose for UI, Ktor for networking, and Coil for image loading. The app fetches movie data from an API and displays it in a list.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## Features
 
+- Fetches movie data from an API
+- Displays a list of movies with images and details
+- Uses Ktor for networking
+- Uses Coil for image loading
+- Built with Kotlin Multiplatform (KMP)
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Screenshots
+
+![Screenshot 1](screenshot1.png)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ShahzaibAli02/MoviesAppKMP.git
+
+2. Chane api key :
+Update ApiHelper class
+```kotlin
+val bearerToken = "AUTH_TOKEN"
